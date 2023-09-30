@@ -1,0 +1,80 @@
+<!-- Build your First Form, students can deside on the theme.
+
+Challenge 1: Use the text input to get the user name 
+Challenge 2: Use lable in appropriate places
+Challenge 3: use different form input elements
+Challenge 4: When the form is submitted, get the user's response and add the same to the body of the mail with your email id in the "to" section.
+-->
+
+<!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <form>
+    <h1 align="center">Job Application Form</h1>
+    <div>
+     <label for="name">Name:</label>
+     <input type="text" name="name" id="name" placeholder="Username">
+  </div><br>
+  <div>
+     <label for="email">Email:</label>
+     <input type="email" name="email" id="email" placeholder="Email">
+  </div><br>
+  <div>
+     <label for="password">Password:</label>
+     <input type="password" name="password" id="password" >
+  </div><br>
+  <div>
+     <label for="date of birth">Date of Birth:</label>
+  </div>
+  <div>
+     <input type="date" name="date" id="date">
+  </div><br>
+  <div>Gender:</div>
+  <div>
+     <input type="radio" name="gender" id="male" value="Male">Male 
+  </div>
+  <div>
+     <input type="radio" name="gender" id="female" value="Female">Female
+  </div>
+  <div>
+    <input type="radio" name="gender" id="Trans" value="Trans">Trans
+  </div><br>
+ 
+ <div>
+    Applied Position
+  </div>
+  <div>
+     <select name="Apllied Position" id="Stream">
+       <option value="Manager">Manager</option>
+       <option value="HR">Human resources</option>
+       <option value="Developer">Software Developer</option>
+       <option value="Designer">Designer</option>
+     </select></div><br> 
+
+<div>
+ <label for="Preferred Interview date:">Preferred Interview date:</label>
+</div>
+<div>
+  <input type="date" name="date" id="date">
+</div><br>
+<div>
+  <label for="Phone Number">Phone Number:</lable>
+    <input type="tel" name="Phone Number" id="Phone Number">
+    <div><br>
+  <div>
+    <label for="Cover letter">Cover letter</label>
+<br>
+<textarea id="Cover letter" name="Cover letter" rows="20" cols="100">
+Enter text here...
+</textarea>
+  <button>Submit</button>
+    </form>
+</body>
+</html>
